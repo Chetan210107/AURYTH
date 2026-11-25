@@ -1,0 +1,23 @@
+# Dependencies and build output
+node_modules/
+dist/
+.output/
+.tanstack/
+.vite/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Test and tool output
+coverage/
+*.tsbuildinfo
+*.log
+npm-debug.log*
+
+# Local editor and operating-system files
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
